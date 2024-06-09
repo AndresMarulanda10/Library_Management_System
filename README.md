@@ -52,6 +52,12 @@ python manage.py runserver 0.0.0.0:8000
 
 The backend is configured to run on the `0.0.0.0` host and `8000` port. You can access the system APIs through the URL `http://localhost:8000/api/`.
 
+7. Create a superuser to access the Django admin panel:
+```
+python manage.py createsuperuser
+```
+Follow the prompts to set a username, email, and password for the superuser.
+
 ### Frontend (React.js) 🌐
 
 1. Navigate to the frontend directory:
